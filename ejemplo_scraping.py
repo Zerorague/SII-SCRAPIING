@@ -49,4 +49,5 @@ for i in equipos:
 
 del count
 
-print(resultado)
+for key, value in resultado.items():
+    print(f"{key} : {value}")
